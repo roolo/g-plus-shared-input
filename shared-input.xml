@@ -7,7 +7,24 @@
   <Content type="html">
     <![CDATA[
       <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
-      <!-- Your application code -->
+          <link href="bootstrap.css" rel="stylesheet">
+        
+          <div class="container">
+              <h1 id="google-hangout-shared-input">Google+ &ndash; Hangout &ndash; Shared input</h1>
+              <form class="form-horizontal">
+                  <div class="control-group">
+                      <label class="control-label" for="shared-data">Shared data</label>
+                      <div class="controls">
+                          <input id="shared-data" class="input-xlarge" type="text" name="shared-data" value="j">
+                      </div>
+                  </div> <!-- <div class="control-group"> -->
+                
+                  <a class="btn btn-primary" href="#">Update</a>
+              </form> <!-- <form class="form-horizontal"> -->
+            
+          </div> <!-- <div class="container"> -->
+      </body>
+      
     ]]>
   </Content>
 </Module>
